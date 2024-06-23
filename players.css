@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+  
+}
+
+main{
+  max-width: 250px;
+  color: white;
+  
+}
+
+.task-form-container{
+
+  border: none;
+  justify-content: center;
+  margin: auto;
+
+}
+
+#text-description{
+  padding-bottom: 70px;
+  text-wrap: wrap;
+  word-wrap: wrap;
+  background-color: rgb(43, 226, 43);
+  border:rgb(43, 226, 43);
+  color: rgb(10, 170, 162);
+}
+
+button{
+  background: linear-gradient(100deg, red, blue, yellow);
+  color: rgb(255, 255, 255);
+  
+  border-color: 200px solid linear-gradient(0, red, blue, yellow);
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
